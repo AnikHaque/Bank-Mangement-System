@@ -4,9 +4,9 @@ export const Class = () => {
   return (
     <div>
 <div className="">
-    <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
+    <div className='grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 xs:grid-cols-1 container'>
         <div>
-        <img src='https://weblearnbd.net/wp/epora/wp-content/uploads/2022/08/about-img.png' className='lg:max-w-lg mx-20'></img>
+        <img src='https://weblearnbd.net/wp/epora/wp-content/uploads/2022/08/about-img.png' className='lg:max-w-lg mx-auto'></img>
         </div>
 
 <div className='class mt-10'>

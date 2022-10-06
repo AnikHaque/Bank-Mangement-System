@@ -5,7 +5,7 @@ export const Services = () => {
     <div>
         <h2 className=' text-center mb-5 text-title text-2xl'>Our Services <i class="fa-solid fa-arrow-right font-bold"></i> </h2>
         
-        <div className='grid lg:grid-cols-4 sm:grid-cols-1'>
+        <div className='grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-1 xs:grid-cols-1'>
 
         <div className="card lg:max-w-lg bg-base-100 shadow-xl">
   <figure className="px-10 pt-10">

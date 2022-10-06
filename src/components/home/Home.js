@@ -20,6 +20,7 @@ import { LiveClass } from '../liveclass/LiveClass'
 import { Transform } from '../transform/Transform'
 import { Services } from '../services/Services'
 import { Investor } from '../investor/Investor'
+import { Awards } from '../awards/Awards'
 
 
 export const Home = () => {
@@ -49,10 +50,11 @@ export const Home = () => {
         <br></br>
         <br></br>
         <br></br> */}
+        <Awards></Awards>
+        <br></br>
+        <br></br>
+        <br></br>
         <Investor></Investor>
-        <br></br>
-        <br></br>
-        <br></br>
         {/* <Supporter></Supporter>   
         <br></br>
         <br></br>
