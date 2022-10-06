@@ -22,7 +22,7 @@ export const Transform = () => {
     <img src="https://st.ourhtmldemo.com/new/finbank-demo/assets/images/icon/banking-features-v2-1.png" alt="Shoes" className="rounded-xl img-opacity" />
   </figure>
   <div className="card-body items-center text-center">
-    <p>Commercial C/A</p>
+    <p className='text-title'>Commercial C/A</p>
    
   </div>
 </div>
@@ -31,7 +31,7 @@ export const Transform = () => {
     <img src="https://st.ourhtmldemo.com/new/finbank-demo/assets/images/icon/banking-features-v2-2.png" alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <p>Online Banking</p>
+    <p className='text-title'>Online Banking</p>
     
   </div>
 </div>
@@ -40,7 +40,7 @@ export const Transform = () => {
     <img src="https://st.ourhtmldemo.com/new/finbank-demo/assets/images/icon/banking-features-v2-3.png" alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <p>Business Loan</p>
+    <p className='text-title'>Business Loan</p>
     
   </div>
 </div>
@@ -49,7 +49,7 @@ export const Transform = () => {
     <img src="https://st.ourhtmldemo.com/new/finbank-demo/assets/images/icon/banking-features-v2-4.png" alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <p>Invest & Insure</p>
+    <p className='text-title'>Invest & Insure</p>
     
   </div>
 </div>
@@ -58,7 +58,7 @@ export const Transform = () => {
     <img src="https://st.ourhtmldemo.com/new/finbank-demo/assets/images/icon/banking-features-v2-5.png" alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <p>Cash Management</p>
+    <p className='text-title'>Cash Management</p>
     
   </div>
 </div>
@@ -67,7 +67,7 @@ export const Transform = () => {
     <img src="https://st.ourhtmldemo.com/new/finbank-demo/assets/images/icon/banking-features-v2-1.png" alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <p>Commercial C/A</p>
+    <p className='text-title'>Commercial C/A</p>
     
   </div>
 </div>

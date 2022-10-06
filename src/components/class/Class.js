@@ -1,15 +1,15 @@
 import React from 'react'
-
+import './Class.css';
 export const Class = () => {
   return (
     <div>
 <div className="">
-    <div className='grid grid-cols-2'>
+    <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
         <div>
-        <img src='https://weblearnbd.net/wp/epora/wp-content/uploads/2022/08/about-img.png' className='w-96 mx-20'></img>
+        <img src='https://weblearnbd.net/wp/epora/wp-content/uploads/2022/08/about-img.png' className='lg:max-w-lg mx-20'></img>
         </div>
 
-<div>
+<div className='class mt-10'>
 <h2 className='mb-5 text-title text-2xl'>Nothing is impossible
 </h2>
 <h1 className='font-bold text-title text-4xl mb-3'>We can help you achieve<br></br> Your goals !</h1>

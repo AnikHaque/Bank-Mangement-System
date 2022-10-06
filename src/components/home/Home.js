@@ -18,7 +18,9 @@ import { Class } from '../class/Class'
 import { Count } from '../countup/Count'
 import { LiveClass } from '../liveclass/LiveClass'
 import { Transform } from '../transform/Transform'
-import { Services } from '../class/services/Services'
+import { Services } from '../services/Services'
+import { Investor } from '../investor/Investor'
+
 
 export const Home = () => {
   return (
@@ -31,11 +33,11 @@ export const Home = () => {
         <br></br>
         <br></br>
         <br></br>
+       <Services></Services>
+       <br></br>
+        <br></br>
+        <br></br>
         <Count></Count>
-        <br></br>
-        <br></br>
-        <br></br>
-        <Services></Services>
         <br></br>
         <br></br>
         <br></br>
@@ -44,6 +46,10 @@ export const Home = () => {
         <br></br>
         <br></br>
         <Transform></Transform>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Investor></Investor>
         <br></br>
         <br></br>
         <br></br>

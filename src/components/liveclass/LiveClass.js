@@ -3,7 +3,7 @@ import React from 'react'
 export const LiveClass = () => {
   return (
     <div>
-        <h2 className=' text-center mb-5 text-title text-2xl'>Video Support</h2>
+        <h2 className=' text-center mb-5 text-title text-2xl'>Video Support <i class="fa-solid fa-turn-down"></i></h2>
         <h1 className='font-bold text-title text-4xl mb-5 text-center'>HD Quality Video, Audio<br></br>
 & Live Supports</h1>
         <div className='grid grid-cols-1 w-full mx-10'>
