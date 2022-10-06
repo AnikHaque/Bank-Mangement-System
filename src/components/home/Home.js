@@ -45,10 +45,10 @@ export const Home = () => {
         <br></br>
         <br></br>
         <br></br>
-        <Transform></Transform>
+        {/* <Transform></Transform>
         <br></br>
         <br></br>
-        <br></br>
+        <br></br> */}
         <Investor></Investor>
         <br></br>
         <br></br>
