@@ -23,10 +23,7 @@ import './Count.css';
 </CountUp>
   return (
     <div>
-       
-
        <div className="stats stats-vertical lg:stats-horizontal shadow w-full">
-  
   <div className="stat text-center">
     <div className="stat-title text-2xl">Happy Customer</div>
     <i class="fa-sharp fa-solid fa-turn-down text-title"></i>
@@ -52,9 +49,7 @@ import './Count.css';
     <div className="stat-value text-title bg-counter">NaN+</div>
     <div className="stat-desc">↘︎ 90 (14%)</div>
   </div>
-  
 </div>
-
     </div>
   )
 }

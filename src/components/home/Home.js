@@ -53,10 +53,10 @@ export const Home = () => {
         <br></br>
         <br></br>
         <br></br>
-        <Supporter></Supporter>   
+        {/* <Supporter></Supporter>   
         <br></br>
         <br></br>
-        <br></br>
+        <br></br> */}
     </div>
   )
 }
