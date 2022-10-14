@@ -57,16 +57,14 @@ const Navbar = () => {
           <ul className="p-2">
             <li><Link to="/mobilebank">Explore mobile banking</Link></li>
             <li><Link to="/onlinebank">Explore online banking</Link></li>
-            <li><Link to="/homebank">Bank From Home</Link></li>
+       
             
           </ul>
         </li></a></li>
-          <li className='text-black'><a>Careers</a></li>
-          <li className='text-black'><a>History</a></li>
-          <li className='text-black'><a>Events</a></li>
+         
         </ul>
       </li>
-      <li><Link to="/about">About</Link></li>
+      <li><Link to="/aboutus">About</Link></li>
       <li tabIndex={0}>
         <a>
           Services

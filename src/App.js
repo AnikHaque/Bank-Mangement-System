@@ -11,6 +11,10 @@ import {Login} from './components/login/Login';
 import SignUp from './components/login/SignUp';
 import { MobileBank } from './components/mobilebank/MobileBank';
 import { Investor } from './components/investor/Investor';
+import AboutUs from './components/aboutus/AboutUs';
+import Pricing from './components/pricing/Pricing';
+import Contact from './components/contact/Contact';
+import { OnlineBanking } from './components/onlinebanking/OnlineBanking';
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
    <Routes>
    <Route path="/" element={<Home></Home>} />
    <Route path="/mobilebank" element={<MobileBank></MobileBank>} />
+   <Route path="/onlinebank" element={<OnlineBanking></OnlineBanking>} />
+   <Route path="/aboutus" element={<AboutUs></AboutUs>} />
+   <Route path="/contact" element={<Contact></Contact>} />
+   <Route path="/pricing" element={<Pricing></Pricing>} />
    <Route path="/investor" element={<Investor></Investor>} />
    <Route path="/login" element={<Login></Login>} />
    <Route path="/signup" element={<SignUp></SignUp>} />
