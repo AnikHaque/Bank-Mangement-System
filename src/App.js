@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -10,6 +9,8 @@ import { About } from './components/about/About';
 import { Footer } from './components/footer/Footer';
 import {Login} from './components/login/Login';
 import SignUp from './components/login/SignUp';
+import { MobileBank } from './components/mobilebank/MobileBank';
+import { Investor } from './components/investor/Investor';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Navbar></Navbar> 
    <Routes>
    <Route path="/" element={<Home></Home>} />
+   <Route path="/mobilebank" element={<MobileBank></MobileBank>} />
+   <Route path="/investor" element={<Investor></Investor>} />
    <Route path="/login" element={<Login></Login>} />
    <Route path="/signup" element={<SignUp></SignUp>} />
    <Route path="/about" element={<About></About>} />

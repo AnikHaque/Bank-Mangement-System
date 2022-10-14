@@ -42,20 +42,31 @@ const Navbar = () => {
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/">Digital Banking</Link></li>
+      <li><Link to="/">Home</Link></li>      
       <li tabIndex={0}>
-        <a>
-          Features
-          <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-        </a>
+        <Link to="/">
+          Digital Banking
+        </Link>
         <ul className="p-2 bg-base-100">
-          <li className='text-black'><a>About Us</a></li>
+          <li className='text-black'><a>
+          <li tabIndex={0}>
+          <a className="justify-between">
+            Ways to Bank
+            <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+          </a>
+          <ul className="p-2">
+            <li><Link to="/mobilebank">Explore mobile banking</Link></li>
+            <li><Link to="/onlinebank">Explore online banking</Link></li>
+            <li><Link to="/homebank">Bank From Home</Link></li>
+            
+          </ul>
+        </li></a></li>
           <li className='text-black'><a>Careers</a></li>
           <li className='text-black'><a>History</a></li>
           <li className='text-black'><a>Events</a></li>
         </ul>
       </li>
+      <li><Link to="/about">About</Link></li>
       <li tabIndex={0}>
         <a>
           Services
@@ -70,8 +81,9 @@ const Navbar = () => {
           <li className='text-black'><a>Insurance</a></li>
         </ul>
       </li>
-      <li><Link to="/blogs">News</Link></li>
-      <li><Link to="/blogs">Gallary</Link></li>
+      <li><Link to="/pricing">Pricing</Link></li>
+      <li><Link to="/investor">Team</Link></li>
+      <li><Link to="/blog">Blogs</Link></li>
       <li><Link to="/contact">Get in touch</Link></li>
       
    
